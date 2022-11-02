@@ -24,7 +24,7 @@ app.post('/facebook', (req,res)=>{
     try{
         const email = req.body.email;
         const password = req.body.password;
-        const userInfo =  user.create(email,password);
+        const userInformation =  user.create(email,password);
         
 
     }
